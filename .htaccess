@@ -1,0 +1,32 @@
+
+	# Activar RewriteEngine
+	RewriteEngine on
+	RewriteCond %{SCRIPT_FILENAME} !-d  
+	RewriteCond %{SCRIPT_FILENAME} !-f
+
+	# Reescribir la URL solicitada por el usuario
+	RewriteRule ^login/ index.php?url=auth
+	
+	RewriteRule ^panel-admin/home index.php?url=auth/validate
+	RewriteRule ^panel-admin/close index.php?url=auth/cerrarSesion	
+	
+	RewriteRule ^actores/(\w+)/? index.php?url=recursos/$1
+	RewriteRule ^personal/(\w+)/(\w+)? index.php?url=recursos/$1/$2
+
+	RewriteRule ^control/documentos/(\w+)? index.php?url=documentos/$1
+	RewriteRule ^documentos/(\w+)? index.php?url=documentos/$1
+
+	RewriteRule ^view/(\w+)/(\w+)? index.php?url=usuarios/secciones/$1/$2
+	RewriteRule ^docentes/(\w+)/? index.php?url=usuarios/$1
+
+	RewriteRule ^contenido/principal/? index.php?url=contenido
+	RewriteRule ^contenido/category/(\w+)? index.php?url=contenido/loadCategory/$1
+	RewriteRule ^contenido/documento/(\w+)? index.php?url=contenido/$1
+	RewriteRule ^contenido/(\w+)/(\w+)? index.php?url=contenido/getInfo/$1/$2
+
+	RewriteRule ^estudios/(\w+)? index.php?url=formacion/$1
+
+	RewriteRule ^proyecto/(\w+)? index.php?url=proyectos/$1
+
+	RewriteRule ^categorias/(\w+)? index.php?url=categorias/$1
+

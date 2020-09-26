@@ -1,0 +1,255 @@
+
+.wellcome h1 {
+	font-size: 2em;
+}
+
+.wellcome h1 > span {
+	font-size: .8em;
+	color: rgba(0,0,0,.6);
+}
+
+.main-footer.index, .index .info-box {
+	background-color: #272727;
+	color: #FFF;
+}
+
+.content-header.no-index h2 {
+	font-size: 1.2em;
+}
+
+.content-header.no-index .info-box-number {
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.content-header.no-index .info-box-icon {
+	background-color: #FFF;
+}
+
+.img_secciones {
+	margin-bottom: 1em;
+}
+
+.img_secciones img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.widget-user .widget-user-username {
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.widget-user .box-footer {
+    padding-top: 40px;
+}
+
+.data-teacher li {
+	position: relative;
+	margin-left: 50px;
+	padding: 8px 4px;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.data-teacher li > .icon-list-data {
+	position: absolute;
+	text-align: center;
+	width: 50px;
+	left: -50px;
+}
+
+.data-teacher li > .icon-list-data {
+	font-size: 2em;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #dd4b39;
+}
+
+.p-rel {
+	position: relative;
+}
+
+.widget-user {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.content-header .info-box .add-person {
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);	
+}
+
+.jGrowl-notification {
+	opacity: 1;
+	ms-filter: alpha(90);
+    filter: alpha(90);
+}
+
+.jGrowl-notification .jGrowl-header {
+    font-size: 1.1em;
+    margin-bottom: .3em;
+}
+
+.btn-fixed {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    margin-bottom: 0;
+    z-index: 998;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.icon-remove {
+	width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 1;
+    text-align: center;
+    padding: 0 16px;
+    font-size: 16px;
+    min-width: 22px;
+}
+
+/*================= wizard =====================*/
+.wizard >.steps {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wizard ul, .tabcontrol ul {
+    list-style: none!important;
+    padding: 0;
+    margin: 0;
+}
+
+.wizard>.steps>ul>li, .wizard>.actions>ul>li {
+    float: left;
+}
+
+.wizard>.steps>ul>li {
+    width: 25%;
+}
+
+.wizard ul>li, .tabcontrol ul>li {
+    display: block;
+    padding: 0;
+}
+
+.wizard>.steps .current a, .wizard>.steps .current a:hover, .wizard>.steps .current a:active {
+    background: #d61117;
+    color: #fff;
+    cursor: default;
+}
+
+.wizard>.steps a, .wizard>.steps a:hover, .wizard>.steps a:active {
+    display: block;
+    width: auto;
+    margin: 0 .5em .5em;
+    padding: 1em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wizard a, .tabcontrol a {
+    outline: 0;
+}
+
+.wizard>.steps .current-info, .tabcontrol>.steps .current-info {
+    position: absolute;
+    left: -999em;
+}
+
+.wizard>.steps .number {
+    font-size: 1.429em;
+}
+
+.wizard>.steps a, .wizard>.steps .disabled a:hover, .wizard>.steps .disabled a:active {
+    background: #eee;
+    color: #aaa;
+    cursor: default;
+}
+
+.wizard>.content {
+    display: block;
+    margin: .5em;
+    min-height: 20em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.wizard>.content>.title, .tabcontrol>.content>.title {
+    position: absolute;
+    left: -999em;
+}
+
+.wizard>.content>.body {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.wizard>.actions {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+.wizard>.actions>ul {
+    display: inline-block;
+    text-align: right;
+}
+
+.wizard>.actions>ul>li {
+    margin: 0 .5em;
+}
+
+.wizard>.steps>ul>li, .wizard>.actions>ul>li {
+    float: left;
+}
+
+.wizard ul>li, .tabcontrol ul>li {
+    display: block;
+    padding: 0;
+}
+
+.wizard>.actions .disabled a, .wizard>.actions .disabled a:hover, .wizard>.actions .disabled a:active {
+    background: #eee;
+    color: #aaa;
+}
+
+.wizard>.actions a, .wizard>.actions a:hover, .wizard>.actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}

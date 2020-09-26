@@ -1,0 +1,154 @@
+
+/* ESTILOS INDEX.PHP */
+.bg-red-ufps {
+    background-color: #aa1916 !important;
+}
+
+.blog-topbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.topbar-list {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    float: left;
+}
+
+.topbar-list>li {    
+    font-size: 10px;
+    padding: 7px 12px;
+    position: relative;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.topbar-list >li>a {
+    color: #eee !important;
+}
+
+.bg-img-ufps .parallax {
+    padding: 30px 30px;
+    background-image: url(../img/header-superior-principal.jpg);
+    background-attachment: fixed;
+}
+
+.bg-nav-ufps, footer {
+    background-color: #272727;
+}
+
+.bg-nav-ufps ul li a {
+    font-weight: 600;
+    color: #FFF;
+    font-size: 1.1em;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .2s;
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+    color: #777 !important;
+}
+
+.dropdown-menu > li > a:hover{
+    color: #FFF !important;
+}
+
+.dropdown-menu .divider {
+    margin: 0;
+}
+
+.navbar-nav .dropdown-menu > .dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    border-top: 3px solid #aa1916;
+}
+
+.bg-nav-ufps ul li a:hover,
+.bg-nav-ufps ul li a:active,
+.bg-nav-ufps ul li a:focus {
+    background-color: #aa1916 !important;
+    color: #FFF;
+}
+
+.content-header.no-index .info-box-icon {
+    background-color: #FFF;
+}
+
+.content-header.no-index .info-box-number {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.content-header.no-index h2 {
+    font-size: 1.2em;
+}
+
+footer .footer-cont {
+    padding: 40px 0px;
+    color: #FFF;
+}
+
+footer .footer-cont .headline h2 {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid #aa1916; 
+    padding-bottom: 5px;
+}
+
+.latest-list li {
+    padding: 8px 0;
+    border-top: 1px solid #353535;
+}
+
+.latest-list li:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+footer a, .copyright p {
+    color: #FFF;
+}
+
+footer a:hover, .copyright a:hover {
+    color: #aa1916;
+}
+
+footer .map-img {
+    background: url(../img/map-img.png) 5px 60px no-repeat;
+}
+
+footer .copyright {
+    background: #222;
+    border-top: 0;
+    padding: 10px 0 5px;
+}
+
+footer .copyright p, .dark-social {
+    margin-top: 12px;
+    font-size: 1.1em;
+}
+
+/* ESTILOS DE SECCIONES.PHP */
+.img-section {
+    margin-bottom: 20px;
+}
+
+.secciones p {
+    font-size: 1.3em;
+}
+
+/* ESTILOS PARA VISTA DOCENTES*/
+.contact-box {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #e7eaec;
+}
+
+
